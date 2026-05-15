@@ -1,0 +1,48 @@
+# Android / Gradle
+*.iml
+.gradle
+/build
+/app/build
+/local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+
+# IDE - IntelliJ / Android Studio
+.idea/
+!.idea/.gitignore
+!.idea/icon.png
+
+# IDE - VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Native
+.externalNativeBuild
+.cxx
+*.so
+
+# Firebase (DO NOT commit - contains API keys)
+google-services.json
+
+# Environment
+.env
+*.env.local
+keystore/
+*.keystore
+*.jks
+
+# Captures
+/captures
+
+# Misc
+*.bak
+*.orig
+*~

@@ -1,0 +1,7 @@
+﻿-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn sun.misc.**
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.firebase.** { *; }
+-keep class com.nammakelsa.domain.models.** { *; }
+-keepclassmembers class com.nammakelsa.domain.models.** { *; }
